@@ -9,7 +9,7 @@ while opcao != 0:
     print("0 - Sair")
 
     opcao = int(input("Escolha uma opção: "))
-
+    
     if opcao == 1:
         a = int(input("Digite o primeiro número: "))
         b = int(input("Digite seu segundo número: "))
@@ -23,7 +23,6 @@ while opcao != 0:
             numero = int(input("Digite seu número (0 para sair) "))
             if numero > 0:
                 contador += 1
-        print("Quantiedade de números positivos", contador)
 
     elif opcao == 3:
         contador = 0
